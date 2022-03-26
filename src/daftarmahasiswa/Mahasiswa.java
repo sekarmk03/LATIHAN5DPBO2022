@@ -13,11 +13,21 @@ public class Mahasiswa {
     private String nim;
     private String nama;
     private String nilai;
+<<<<<<< HEAD
+    private String gender;
+    
+    public Mahasiswa(String n1, String n2, String n3, String n4){
+        nim = n1;
+        nama = n2;
+        nilai = n3;
+        gender = n4;
+=======
     
     public Mahasiswa(String n1, String n2, String n3){
         nim = n1;
         nama = n2;
         nilai = n3;
+>>>>>>> 1f5fa966c373fcc01bb2315642d1003d624838d1
     }
     
     public void setNim(String n) {
@@ -32,6 +42,13 @@ public class Mahasiswa {
         nilai = n;
     }
     
+<<<<<<< HEAD
+    public void setGender(String n) {
+        gender = n;
+    }
+    
+=======
+>>>>>>> 1f5fa966c373fcc01bb2315642d1003d624838d1
     public String getNim() {
         return nim;
     }
@@ -43,4 +60,11 @@ public class Mahasiswa {
     public String getNilai() {
         return nilai;
     }
+<<<<<<< HEAD
+    
+    public String getGender() {
+        return gender;
+    }
+=======
+>>>>>>> 1f5fa966c373fcc01bb2315642d1003d624838d1
 }
